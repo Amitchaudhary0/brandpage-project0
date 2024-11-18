@@ -1,0 +1,55 @@
+.nav-bar{
+    padding: 1rem;
+}
+nav{
+    display: flex;
+    gap: 5px;
+    justify-content: space-around;
+}
+
+.logo{
+    align-self: center;
+}
+
+.links{
+    display: flex;
+    gap:10%;
+    align-self: center;
+    text-transform: uppercase;
+}
+
+.links>a{
+    text-decoration: none;
+    color: black;
+}
+
+.btn>button{
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 0.4rem 1.5rem;
+    color: white;
+    background-color: rgb(212, 8, 8);
+    border: none;
+    align-self: center;
+    &:hover{
+      background-color: rgb(255, 0, 0);
+    }
+}
+.logo{
+    /* border: 2px solid red; */
+    width: 100px;
+    height: 35px;
+    overflow:hidden;
+    position: relative;
+    cursor: pointer;
+}
+
+.logo img{
+    object-fit: cover;
+  position: absolute;
+  bottom: -70%;
+  /* border: 2px solid red; */
+  filter: invert(1);
+  left: 11%;
+  width: 80px;
+}
